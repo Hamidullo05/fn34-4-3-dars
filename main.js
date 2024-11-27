@@ -308,3 +308,37 @@ if ((num40_1>0 || num40_2<0) && (num40_1<0 || num40_2) && (num40_1*num40_2)>0) {
 } else {
     console.log("folse")
 }
+// 41-masala
+let num41_1 = +prompt("41-masala")
+let num41_2 = +prompt("41-masala")
+let num41_3 = +prompt("41-masala")
+if (num41_1<=num41_2<=num41_3) {
+    console.log("true")
+} else {
+    console.log("folse")
+}
+// 42-masala
+let num42_1 = +prompt("42-masala")
+let num42_2 = +prompt("42-masala")
+let num42_3 = +prompt("42-masala")
+if ((num42_2<num42_1<num42_1<num42_3) ||(num42_3<num42_1<num42_2)) {
+    console.log("true")
+} else {
+    console.log("folse")
+}
+// 43-masala
+let num43_1 = +prompt("43-masala")
+let num43_2 = +prompt("43-masala")
+if (num43_1%2==1 && num43_2%2==1) {
+    console.log("true")
+}  else {
+    console.log("folse")
+}
+// 44-masala
+let num44_1 = +prompt("44-masala")
+let num44_2 = +prompt("44-masala")
+if (num43_1%2==1 || num43_2%2==1) {
+    console.log("true")
+}  else {
+    console.log("folse")
+}
