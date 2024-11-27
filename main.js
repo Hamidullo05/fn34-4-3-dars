@@ -301,13 +301,13 @@ if ((num39_1+num39_2)>num39_3 || (num39_1+num39_3)>num39_2 || (num39_3+num39_2)>
     console.log("folse")
 }
 // 40-masala
-let num40_1 = +prompt("40-masala")
+ /*let num40_1 = +prompt("40-masala")
 let num40_2 = +prompt("40-masala")
 if ((num40_1>0 || num40_2<0) && (num40_1<0 || num40_2) && (num40_1*num40_2)>0) {
     console.log("true")
 } else {
     console.log("folse")
-}
+} */
 // 41-masala
 let num41_1 = +prompt("41-masala")
 let num41_2 = +prompt("41-masala")
@@ -337,8 +337,69 @@ if (num43_1%2==1 && num43_2%2==1) {
 // 44-masala
 let num44_1 = +prompt("44-masala")
 let num44_2 = +prompt("44-masala")
-if (num43_1%2==1 || num43_2%2==1) {
+if (num44_1%2==1 || num44_2%2==1) {
     console.log("true")
 }  else {
     console.log("folse")
+}
+// 45-masala
+let num45_1 = +prompt("45-masala")
+let num45_2 = +prompt("45-masala")
+if ((num45_1%2==1 && num45_2%2==0) || (num45_2%2==1 && num45_1%2==0)) {
+    console.log("true")
+}  else {
+    console.log("folse")
+}
+// 46-masala
+let num46_1 = +prompt("46-masala")
+let num46_2 = +prompt("46-masala")
+if ((num46_1%2==1 && num46_2%2==1) || (num46_2%2==0 && num46_1%2==0)) {
+    console.log("true")
+}  else {
+    console.log("folse")
+}
+// 47 -masala
+let num47_1 = +prompt("47-masala")
+let num47_2 = +prompt("47-masala")
+let num47_3 = +prompt("47-masala")
+if (num47_1>0 && num47_2>0 && num47_3>0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+// 48-masala
+let num48_1 = +prompt("48-masala")
+let num48_2 = +prompt("48-masala")
+let num48_3 = +prompt("48-masala")
+if (num48_1>0 || num48_2>0 || num48_3>0) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+// 49-masala
+let num49_1 = +prompt("49-masala")
+let num49_2 = +prompt("49-masala")
+let num49_3 = +prompt("49-masala")
+if ((num49_1>0 && num49_2<0 && num49_3<0) || (num49_2>0 && num49_1<0 && num49_3<0) || (num49_3>0 && num49_2<0 && num49_1<0)) {
+    console.log("true")
+
+} else {
+    console.log("false")
+}
+// 50-masala
+let num50_1 = +prompt("50-masala")
+let num50_2 = +prompt("50-masala")
+let num50_3 = +prompt("50-masala")
+if ((num50_1>0 && num50_2>0 && num50_3<0) || (num50_2>0 && num50_1<0 && num50_3>0) || (num50_3>0 && num50_2<0 && num50_1>0)) {
+    console.log("true")
+
+} else {
+    console.log("false")
+}
+// 51-masala
+let num51 = +prompt("51-masala")
+if ((9<num51<100) && num51%2==0) {
+    console.log("true")
+} else{
+    console.log("false")
 }
