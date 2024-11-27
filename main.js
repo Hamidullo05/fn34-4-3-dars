@@ -197,14 +197,6 @@ if ((num23_1 + num23_2 + num23_3)==0 || (num23_1 * num23_2 * num23_3)<0 ) {
 // 24-masala
  /*let num24 = +prompt("24-masala")
 if () */
-// 25-masala
-let num25_1 = +prompt("25-masala")
-let num25_2 = +prompt("25-masala")
-if ((num25_1%2==1 || num25_2%==1) && (num25_1%2==0 || num25_2%==0)) { 
-    console.log("true")
-} else {
-    console.log("folse")
-} 
 // 26-masala
 let num26 = +prompt("26-masala")
 if (num26>0 && (num16<100 && num26>999)) {
@@ -311,4 +303,8 @@ if ((num39_1+num39_2)>num39_3 || (num39_1+num39_3)>num39_2 || (num39_3+num39_2)>
 // 40-masala
 let num40_1 = +prompt("40-masala")
 let num40_2 = +prompt("40-masala")
-if ()
+if ((num40_1>0 || num40_2<0) && (num40_1<0 || num40_2) && (num40_1*num40_2)>0) {
+    console.log("true")
+} else {
+    console.log("folse")
+}
